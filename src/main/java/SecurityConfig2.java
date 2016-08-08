@@ -18,6 +18,7 @@ public class SecurityConfig {
                 .inMemoryAuthentication()
                 .withUser("user").password("password").roles("USER");
         // just change somethong
+
     }
     // @formatter:on
 }
